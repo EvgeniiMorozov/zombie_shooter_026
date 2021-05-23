@@ -45,6 +45,10 @@ CACTUS_IMG = _IMAGES_DIR / 'cactus.png'
 CACTUS_ATTACK_DELAY = 1
 CACTUS_SPIKE_DAMAGE = 10
 
+# Настройка линейки HP игрока
+PLAYER_BAR_LENGTH = 100
+PLAYER_BAR_HEIGHT = 10
+
 # Список уровней
 LEVEL_1 = _LEVELS_DIR / 'level.txt'
 LEVEL_2 = _LEVELS_DIR / 'level_2.txt'
