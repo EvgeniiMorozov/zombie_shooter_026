@@ -52,3 +52,11 @@ PLAYER_BAR_HEIGHT = 10
 # Список уровней
 LEVEL_1 = _LEVELS_DIR / 'level.txt'
 LEVEL_2 = _LEVELS_DIR / 'level_2.txt'
+
+# RGB-палитры цветов
+WHITE = (255, 255, 255)
+BLACK = (0, 0, 0)
+RED = (255, 0, 0)
+GREEN = (0, 255, 0)
+BLUE = (0, 0, 255)
+YELLOW = (255, 255, 0)
