@@ -15,4 +15,5 @@ class HorizontalBar:
         self.fill_rect = pygame.Rect(self.x, self.y, self.fill, self.height)
 
     def blit(self, surface):
-        surface.blit()
+        pygame.draw.rect(surface, self.outline_color, self.outline_rect, 2)
+        pygame.draw.rect(surface, self.fill_color, self.fill_rect)
